@@ -1,0 +1,16 @@
+{
+  "name": "codebox.js",
+  "version": "1.0.0",
+  "description": "Simple library to create fresh and functionial web code snippets",
+  "main": "dist/codeBox.js",
+  "scripts": {
+    "build": "parcel build ./src/index.js --out-file codeBox.min.js",
+    "dev": "parcel watch ./src/index.js --out-file codeBox.min.js"
+  },
+  "keywords": [],
+  "author": "xdtj",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

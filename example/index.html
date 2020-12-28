@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/java.min.js"></script>
+
+    <link rel="stylesheet" href="../dist/codeBox.min.css">
+    <script src="../dist/codeBox.min.js"></script>
+
+    <title>codebox.js Example</title>
+</head>
+
+<style>
+    body {
+        background-color: #0d0d0d;
+    }
+</style>
+
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<body>
+
+    <codebox title="App.vue" script="js" direction="left">
+        <pre>import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  render: h => h(App),
+  data: {
+    text: "hello world!"
+  }
+}).$mount('#app')</pre>
+    </codebox>
+
+    <br>
+
+    <codebox title="Reciever.java" script="java" direction="right" cselect="true">
+        <pre>@Override
+public State onBodyPartReceived(HttpResponseBodyPart bodyPart) {
+    stream.getChannel().write(bodyPart.getBodyByteBuffer());
+    return State.CONTINUE;
+}</pre>
+    </codebox>
+
+</body></html>
