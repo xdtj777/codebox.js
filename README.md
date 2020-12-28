@@ -2,9 +2,9 @@
 Simple library to create fresh and functionial web code snippets
 
 ## 📖 Table of contents
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Demo](#Demo)
+* [Installation](#-installation)
+* [Usage](#-usage)
+* [Demo](#-demo)
 
 ## 🔨 Installation
 1. Add [highlight.js](https://github.com/highlightjs/highlight.js) dependency in `<header>`
