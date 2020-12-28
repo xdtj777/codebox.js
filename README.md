@@ -34,7 +34,7 @@ Adjust the style import if you want to use a different color scheme. A list of a
 ```
 
 ## 🦥 Usage
-Simply add a new `<codebox>` element to your `<body>`. Put a `<pre>` tag inside and paste your code immediately after the tag.
+Simply add a new `<codebox>` element to your `<body>`. Put a `<pre>` tag inside and paste your code directly inside the tag.
 ```html
 <codebox title="Example" script="java" direction="left" ccopy="true">
   <pre>#YOURcodeHERE#</pre>
