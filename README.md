@@ -1,12 +1,12 @@
 # codebox.js
 Simple library to create fresh and functionial web code snippets
 
-## Table of contents
+## 📖 Table of contents
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Demo](#Demo)
 
-## Installation
+## 🔨 Installation
 1. Add [highlight.js](https://github.com/highlightjs/highlight.js) dependency in `<header>`
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
@@ -33,7 +33,7 @@ Adjust the style import if you want to use a different color scheme. A list of a
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ghxstboy/codebox.js@1.0.0/dist/codeBox.min.css"/>
 ```
 
-## Usage
+## 🦥 Usage
 Simply add a new `<codebox>` element to your `<body>`. Put a `<pre>` tag inside and paste your code immediately after the tag.
 ```html
 <codebox title="Example" script="java" direction="left" ccopy="true">
@@ -53,7 +53,7 @@ Simply add a new `<codebox>` element to your `<body>`. Put a `<pre>` tag inside 
 | barColor  | Background color of the titlebar | #121212       |
 | textColor | Default text color               | #c1c1c1       |
 
-## Demo
+## 💡 Demo
 
 Visit my [GITHUB PAGE](https://ghxstboy.github.io/codebox.js/example) for some examples.
 
